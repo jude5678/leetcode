@@ -5,6 +5,10 @@ You may assume that each input would have exactly one solution, and you may not 
 You can return the answer in any order.
 
 
+// array of nums
+// only one solution in each array
+// can't use same element twice
+
 // return indices of 2 elements in nums that add up to
 //target
 // return can be in any order
