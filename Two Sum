@@ -1,0 +1,25 @@
+You are given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+
+You can return the answer in any order.
+
+
+// return indices of 2 elements in nums that add up to
+//target
+// return can be in any order
+
+// nums = [1, 2, 3, 4, 5], target = 4 -> [0, 2]
+// nums = [5, 7, 10], target = 17 -> [1, 2]
+// nums = [2, 4, 5, 11], target = 16 -> [2, 3]
+
+function addUpToTarget(nums, target){
+  // find the sum of all pairs of elements in nums
+
+  // compare and find the sum that equals target
+
+  // return indices of those 2 elements
+
+}
+
+console.log()
