@@ -21,7 +21,7 @@ function addUpToTarget(nums, target){
   // first number
   for(let i = 0; i < nums.length; i++){
     // second number
-    for(let k = 0; k < nums.length; i++){
+    for(let k = 0; k < nums.length; k++){
       // compare and find the sum that equals target
       if (nums[i]+ nums[k] === target && i !== k ){
         // return indices of those 2 elements
