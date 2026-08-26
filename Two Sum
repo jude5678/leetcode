@@ -11,18 +11,19 @@
 // nums = [2, 4, 5, 11], target = 16 -> [2, 3]
 
 function addUpToTarget(nums, target){
-  // find the sum of all pairs of elements in nums
+  // first number
   for(i = 0; i < nums.length; i++){
-    
+    // second number
+    for(k = 0; k < nums.length; i++){
+      // compare and find the sum that equals target
+      if (nums[i]+ nums[k] === target && i !== k ){
+        // return indices of those 2 elements
+        return [i, k]
+      }
+    }
   }
-
-
-  // compare and find the sum that equals target
-
-  // return indices of those 2 elements
-
 }
 
-console.log(addUpToTarget([1, 2, 3, 4, 5], 4))
-console.log(addUpToTarget([5, 7, 10], 17))
-console.log(addUpToTarget([2, 4, 5, 11], 16))
+console.log(addUpToTarget([1, 2, 3, 4, 5], 4), '[0, 2]')
+console.log(addUpToTarget([5, 7, 10], 17), '[1, 2]')
+console.log(addUpToTarget([2, 4, 5, 11], 16), '[2, 3]')
