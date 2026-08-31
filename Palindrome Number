@@ -1,0 +1,20 @@
+Given an integer x, return true if x is a palindrome, and false otherwise.
+
+
+// given an integer (x)
+// x is a whole number, positive
+
+// palindrome reads the same forward and backward
+// return true if x is a palindrome, false if not
+
+// 808 -> true
+// 952 -> false
+// 11 -> true
+
+function palindrome(x){
+  
+}
+
+console.log(palindrome(808), 'true')
+console.log(palindrome(952), 'false')
+console.log(palindrome(11), 'true')
