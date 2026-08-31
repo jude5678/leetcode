@@ -12,10 +12,16 @@ Given an integer x, return true if x is a palindrome, and false otherwise.
 // 11 -> true
 
 function palindrome(x){
-  // reverse x
-  let reverse = x.split('').reverse().join('')
+  let array = []
+  array.unshift(x)
+
+  let convertedToString = array.toString()
+  
+  // reverse string
+  let reversed = convertedToString.split('').reverse().join('')
+
   // compare the reverse to the original
-  if(reverse.toInteger() === x){
+  if(reversed == x){
     // if they are the same, return true
     return true
   }else{
