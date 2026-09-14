@@ -32,7 +32,16 @@ Given a roman numeral, convert it to an integer.
 // CD -> 400
 
 function convertToInteger(romanNumeral){
-  
+  // define each symbol
+
+
+  // split the roman numeral into individual characters
+
+
+  // add or subtract the value of each character
+
+
+  // return that single value
 
 }
 
