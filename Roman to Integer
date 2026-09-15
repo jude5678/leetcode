@@ -36,6 +36,7 @@ function convertToInteger(romanNumeral){
 
 
   // split the roman numeral into individual characters
+    console.log(romanNumeral.split(''))
 
 
   // add or subtract the value of each character
@@ -45,6 +46,6 @@ function convertToInteger(romanNumeral){
 
 }
 
-convertToInteger((VIII), '8')
-convertToInteger((CXI), '111')
-convertToInteger((CD), '400')
+convertToInteger(('VIII'), '8')
+convertToInteger(('CXI'), '111')
+convertToInteger(('CD'), '400')
